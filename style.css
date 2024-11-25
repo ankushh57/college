@@ -1,0 +1,184 @@
+body{
+    background:#f0efef;
+    margin: 0;
+    padding: 0;
+}
+.toparea{
+    background:rgb(181,86,81) ;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+.logoarea{
+    background: rgb(242,195,139);
+    padding: 15px;
+    text-align: center;
+}
+.logoarea img{
+    width: 100px;
+}
+.logoarea  h1{
+    color:#74353F;
+}
+.logoarea h4{
+    color: black;
+}
+.principal{
+    width: 100%;
+    padding: 10PX;
+    background-color: #fff;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.coursearea{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('library.jpg');
+    padding: 100px 0;
+    text-align: center;
+    height:750px;
+    background-attachment: fixed;
+    background-size:cover;
+}
+.principal1 {
+    text-align: center; 
+    
+}
+.principal1 {
+    text-align: center; 
+    
+}
+.principal1 img{
+    color:white;
+}
+.principal1 h3{
+    color: #fff;
+}
+.box{
+    width: 100%;
+    height: 400px;
+    margin: 10px;
+    padding: 10PX;
+    border: solid 1px black;
+    background: #fff;
+    overflow: hidden;
+}
+.box img{
+    width: 100%;
+    border-radius: 100px;
+    transition: all 4s;
+    overflow: hidden;
+}
+.box:hover img{
+    transform: rotate(360deg);
+}
+.nav-link{
+    color: red !important;
+    background: orange;
+}
+.text-justify {
+    text-align: justify !important;
+}
+.syallbus{
+    
+    text-align: center;
+    background-color: #fff;
+    height: 50px;
+    padding: 1%;
+    border-radius:20%;
+}
+.ACHIEVEMENT{
+    background-color: #fff;
+    width: 100%;
+    height: 500px;
+    text-align: center;
+}
+.Achievementbox{
+    background-color: #fff;
+    text-align: center;
+
+}
+.Achievementbox img{
+    width:280px;
+    height: 220px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0.7, 0.7, 0.7, 0.7);
+    border: 8px solid white;
+}
+.Achievementbox h5{
+    color: #74353F;
+}
+.Alumniarea{
+    background-image:  url('alumnibg.jpg');
+    width: 100%;
+    text-align: center;
+    padding: 8%;
+    box-shadow: 0 4px 8px rgba(0.7, 0.7, 0.7, 0.7);
+}
+.al img{
+    width: 400px;
+    height: 100px;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+
+.footer{
+    padding: 30px 0;
+    background: url('footerbg.png');
+    color: #fff;
+}
+
+.footer-box{
+    width: 100%;
+    margin: 20px 0;
+}
+
+.footer-box h5{
+    padding: 0 0 0 10px;
+    border-left: solid 5px white;
+}
+
+.footer-box p,.foot-one-icon{
+    color: #f2c38b;
+    margin: 0;
+}
+
+.footer-box div{
+    margin: 10px 0;
+}
+
+.footer-box div a:link,.footer-box div a:visited{
+    color: #d37f57;
+    text-decoration: none;
+}
+
+.footer-box div a:hover{
+    color: #f2c38b;
+}
+
+.footer-links ul li{
+    margin: 5px 0;
+    transition: all 1s;
+}
+
+.footer-links ul li a:link,.footer-links ul li a:visited,.footicon{
+    color: #d37f57;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.footer-links ul li:hover{
+    transform: translateX(5px);
+}
+
+.footer-links ul li:hover a,.footer-links ul li:hover .footicon{
+    color: #91573b;
+}
+
+.hr-line{
+    margin: 15px 0;
+    width: 100%;
+    height: 1px;
+    background-image: linear-gradient(to right , transparent , #afafaf , transparent);
+}
